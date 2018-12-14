@@ -6,5 +6,6 @@ I have a router that started failing after I filled up all 4 Ethernet ports, so 
 To set it up to run on boot, have a crontab something like this:
 
 GECKODRIVER_PATH=/home/morphex/bin
+
 @reboot /home/morphex/netgear_reboot/br.sh ROUTER_ADMIN_PASSWORD
 
