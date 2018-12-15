@@ -25,3 +25,7 @@ my user morphex to run sudo on the command to reset the routing table:
 morphex ALL=(ALL) NOPASSWD: /sbin/ip route del 0/0
 
 the above line is added to /etc/sudoers
+
+Tested on Ubuntu with python 2 and 3, seems to work just fine. Requires
+the python package python(3)-selenium.
+
