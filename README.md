@@ -29,3 +29,6 @@ the above line is added to /etc/sudoers
 Tested on Ubuntu with python 2 and 3, seems to work just fine. Requires
 the python package python(3)-selenium.
 
+Blog posts related to this software is here:
+
+  http://blogologue.com/search?category=1470141490X3
